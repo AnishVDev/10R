@@ -1,0 +1,3 @@
+- Need to work on PID Tuning
+- Need to add proper auton logic
+- Need to code lift mechanism after building
