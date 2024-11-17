@@ -3,8 +3,9 @@
 ## Prerequisites
 - **PROS Library**: Ensure you have the PROS library installed for VEX robotics programming.
 - **LemLib Library**: Ensure you have the LemLib library installed.
-- **C++ Compiler**: A compatible C++ compiler for building the project.
-- **VEX Robotics Kit**: Make sure you have the necessary hardware components.
+- **Okapilib Library**: Ensure you have the Okapilib library installed (should be auto downloaded when creating a PROS project).
+- **C++ Compiler**: A compatible C++ compiler for building the project (ex. VS Code).
+- **VEX Robotics Kit**: Make sure you have the necessary hardware components (ex. Brain, Controller, Robot, etc).
 
 ## 1. Installation
    Clone the repository:
