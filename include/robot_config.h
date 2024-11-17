@@ -13,7 +13,7 @@
 
 // Pneumatics ports
 #define PNEUMATIC_PORT_1 1
-#define PNEUMATIC_PORT_2 2
+//#define PNEUMATIC_PORT_2 2
 
 // Controller
 extern pros::Controller master;
