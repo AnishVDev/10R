@@ -20,8 +20,6 @@ Here's a brief example of how to control the robot using the joystick.
 
 
 ```markdown
-#include "controller.hpp"
-
 void opcontrol() {
     pros::Controller controller(pros::E_CONTROLLER_MASTER);
     
