@@ -28,9 +28,33 @@ void initialize() {
     // Initialization code here
 }
 
+/**
+Right Side Auton
+*/
 void autonomous() {
-    drivetrain.autonomousDrive(1000, 100); // Example autonomous movement
-    intake.controlIntake(); // Add further actions as needed
+    drivetrain.autonomousDrive(2000, 100);
+    pros::delay(1000);
+    pneumatics.setClampState(true);
+    pros::delay(500);        // Delay to ensure the clamp has time  to actuate
+    intake.setIntake(130);          // Turn intake on
+    pros::delay(500);        // Run intake for 0.5 seconds
+    intake.stopIntake();                  // Stop the intake
+    pros::delay(500);
+    pneumatics.setClampState(false);
+    pros::delay(100);
+    drivetrain.autonomousDrive(-1800, 100);
+    pros::delay(900);
+    drivetrain.autonomousTurn(90, 100, true);  // Turn -90 degrees at a speed of 100 to the right
+    pros::delay(2000);                                     // Wait for 2 seconds to complete the turn
+    drivetrain.autonomousDrive(-1800, 100);
+    pros::delay(900);
+    drivetrain.autonomousDrive(1800, 100);
+    pros::delay(900);
+    drivetrain.autonomousDrive(-1800, 100);
+    pros::delay(900);
+    drivetrain.autonomousDrive(1800, 100);
+    pros::delay(900);
+    drivetrain.autonomousDrive(-1800, 100);
 }
 
 void opcontrol() {
