@@ -9,7 +9,7 @@
 
 ## 1. Installation
    Clone the repository:
-   [git clone](https://github.com/RubyRayquaza/10R.git)
+   [git clone](https://github.com/AnishVDev/10R)
 
 ## 2. Install dependencies
    Follow the [PROS](https://pros.cs.purdue.edu/). [LemLib](https://lemlib.readthedocs.io/en/stable/), and [Okapilib](https://okapilib.github.io/OkapiLib/index.html/) documentation to set up the required libraries.
