@@ -5,10 +5,10 @@
 To run the robot, upload the compiled code to your VEX controller using the PROS environment.
 
 ### Build the Project
-    Run 'pros build' in your pros integrated terminal to build project and check for errors.
+Run `pros build` in your pros integrated terminal to build project and check for errors.
 
 ### Upload the Project
-   Run 'pros upload' in your pros integrated terminal to upload your project to your brain via a download cable.
+Run `pros upload` in your pros integrated terminal to upload your project to your brain via a download cable.
 
 ### Features
 
