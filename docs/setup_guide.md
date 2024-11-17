@@ -15,9 +15,6 @@
    Follow the [PROS](https://pros.cs.purdue.edu/). [LemLib](https://lemlib.readthedocs.io/en/stable/), and [Okapilib](https://okapilib.github.io/OkapiLib/index.html/) documentation to set up the required libraries.
 
 ## 3. Build the Project
-   Run 'pros build' in your pros integrated terminal to build project and check for errors
-
-## 3. Upload the Project
-   Run 'pros upload' in your pros integrated terminal to upload your project to your brain via a download cable
+   N/A
 
 Feel free to adjust the content further based on specific details or features of your project!
