@@ -72,7 +72,7 @@ void initialize() {
 }
 
 /**
-Right Side Auton
+Right Side Autonomous
 */
 void autonomous() {
     drivetrain.autonomousDrive(2000, 100);
