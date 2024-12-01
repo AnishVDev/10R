@@ -10,9 +10,7 @@
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
- */
 
-/**
 
    _____         .__       .__  ____   ____________                
   /  _  \   ____ |__| _____|  |_\   \ /   /\______ \   _______  __ 
@@ -27,10 +25,8 @@
  |___|\_____  /____|_  /
             \/       \/ 
 
-*/
 
 
-/**
  * @file main.cpp
  * @brief This file contains the main code for the robot's operation.
  *
@@ -72,7 +68,7 @@ void initialize() {
 }
 
 /**
-Right Side Autonomous
+Right Side Auton
 */
 void autonomous() {
     drivetrain.autonomousDrive(2000, 100);
@@ -87,17 +83,17 @@ void autonomous() {
     pros::delay(100);
     drivetrain.autonomousDrive(-1800, 100);
     pros::delay(900);
-    drivetrain.autonomousTurn(90, 100, true);  // Turn -90 degrees at a speed of 100 to the right
+    drivetrain.autonomousTurn(125, 100, true);  // Turn 125 degrees at a speed of 100 to the right
     pros::delay(2000);                                     // Wait for 2 seconds to complete the turn
     drivetrain.autonomousDrive(-1800, 100);
     pros::delay(900);
     drivetrain.autonomousDrive(1800, 100);
     pros::delay(900);
-    drivetrain.autonomousDrive(-1800, 100);
+    drivetrain.autonomousDrive(-1900, 100);
     pros::delay(900);
     drivetrain.autonomousDrive(1800, 100);
     pros::delay(900);
-    drivetrain.autonomousDrive(-1800, 100);
+    drivetrain.autonomousDrive(-2000, 100);
 }
 
 void opcontrol() {

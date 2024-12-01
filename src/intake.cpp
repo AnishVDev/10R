@@ -7,11 +7,11 @@ Intake::Intake()
       intakeRunningForward(false), intakeRunningReverse(false) {}
 
 void Intake::controlIntake() {
-    if (master.get_digital_new_press(pros::E_CONTROLLER_DIGITAL_L1)) {
+    if (master.get_digital_new_press(pros::E_CONTROLLER_DIGITAL_L2)) {
         intakeRunningForward = !intakeRunningForward;
         intakeRunningReverse = false;
         intakeMotor.move(intakeRunningForward ? 150 : 0);
-    } else if (master.get_digital_new_press(pros::E_CONTROLLER_DIGITAL_L2)) {
+    } else if (master.get_digital_new_press(pros::E_CONTROLLER_DIGITAL_L1)) {
         intakeRunningReverse = !intakeRunningReverse;
         intakeRunningForward = false;
         intakeMotor.move(intakeRunningReverse ? -150 : 0);
